@@ -1,0 +1,49 @@
+PODS:
+  - AFNetworking (2.6.3):
+    - AFNetworking/NSURLConnection (= 2.6.3)
+    - AFNetworking/NSURLSession (= 2.6.3)
+    - AFNetworking/Reachability (= 2.6.3)
+    - AFNetworking/Security (= 2.6.3)
+    - AFNetworking/Serialization (= 2.6.3)
+    - AFNetworking/UIKit (= 2.6.3)
+  - AFNetworking/NSURLConnection (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.6.3)
+  - AFNetworking/Security (2.6.3)
+  - AFNetworking/Serialization (2.6.3)
+  - AFNetworking/UIKit (2.6.3):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - Flutter (1.0.0)
+  - FlutterPluginRegistrant (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - AFNetworking (~> 2.6)
+  - Flutter (from `./flutter-module-demo/.ios/Flutter/engine`)
+  - FlutterPluginRegistrant (from `./flutter-module-demo/.ios/Flutter/FlutterPluginRegistrant`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: "./flutter-module-demo/.ios/Flutter/engine"
+  FlutterPluginRegistrant:
+    :path: "./flutter-module-demo/.ios/Flutter/FlutterPluginRegistrant"
+
+SPEC CHECKSUMS:
+  AFNetworking: cb8d14a848e831097108418f5d49217339d4eb60
+  Flutter: 9d0fac939486c9aba2809b7982dfdbb47a7b0296
+  FlutterPluginRegistrant: 5f33f54e5f25444620ff39f2bdee4262d673ec7b
+
+PODFILE CHECKSUM: 2a8f6befd24d0a62b93e3b55b399f564bbb9ff2d
+
+COCOAPODS: 1.5.3

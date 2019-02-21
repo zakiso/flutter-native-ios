@@ -14,6 +14,7 @@
 		9644C9C9221E973E0021D904 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9644C9C7221E973E0021D904 /* LaunchScreen.storyboard */; };
 		9644C9D4221E973E0021D904 /* FlutterNativeiOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9644C9D3221E973E0021D904 /* FlutterNativeiOSTests.swift */; };
 		9644C9DF221E973E0021D904 /* FlutterNativeiOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9644C9DE221E973E0021D904 /* FlutterNativeiOSUITests.swift */; };
+		DD6AA43F6589003EE8F1CB52 /* Pods_FlutterNativeiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20D5F39FFFC7FC1AFFD47F14 /* Pods_FlutterNativeiOS.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		20D5F39FFFC7FC1AFFD47F14 /* Pods_FlutterNativeiOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlutterNativeiOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9644C9BB221E973C0021D904 /* FlutterNativeiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlutterNativeiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9644C9BE221E973C0021D904 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9644C9C0221E973C0021D904 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +49,8 @@
 		9644C9DA221E973E0021D904 /* FlutterNativeiOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlutterNativeiOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9644C9DE221E973E0021D904 /* FlutterNativeiOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlutterNativeiOSUITests.swift; sourceTree = "<group>"; };
 		9644C9E0221E973E0021D904 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A56CC29003C361FDE95559FD /* Pods-FlutterNativeiOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlutterNativeiOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-FlutterNativeiOS/Pods-FlutterNativeiOS.release.xcconfig"; sourceTree = "<group>"; };
+		AD6E5FFD3BE4B6888CAB7CC9 /* Pods-FlutterNativeiOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlutterNativeiOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FlutterNativeiOS/Pods-FlutterNativeiOS.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD6AA43F6589003EE8F1CB52 /* Pods_FlutterNativeiOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +79,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4268B34B4F4F4B2B3DE82E31 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				20D5F39FFFC7FC1AFFD47F14 /* Pods_FlutterNativeiOS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		9644C9B2221E973C0021D904 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +94,8 @@
 				9644C9D2221E973E0021D904 /* FlutterNativeiOSTests */,
 				9644C9DD221E973E0021D904 /* FlutterNativeiOSUITests */,
 				9644C9BC221E973C0021D904 /* Products */,
+				BFF29901C8E8389A349C4714 /* Pods */,
+				4268B34B4F4F4B2B3DE82E31 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +140,15 @@
 			path = FlutterNativeiOSUITests;
 			sourceTree = "<group>";
 		};
+		BFF29901C8E8389A349C4714 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AD6E5FFD3BE4B6888CAB7CC9 /* Pods-FlutterNativeiOS.debug.xcconfig */,
+				A56CC29003C361FDE95559FD /* Pods-FlutterNativeiOS.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +156,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9644C9E3221E973E0021D904 /* Build configuration list for PBXNativeTarget "FlutterNativeiOS" */;
 			buildPhases = (
+				D0D6FCD7A095BFB4389BB009 /* [CP] Check Pods Manifest.lock */,
 				9644C9B7221E973C0021D904 /* Sources */,
 				9644C9B8221E973C0021D904 /* Frameworks */,
 				9644C9B9221E973C0021D904 /* Resources */,
+				9644C9EC221E9B970021D904 /* ShellScript */,
+				F13FE61AE9DDD8082B724746 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -250,6 +277,74 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9644C9EC221E9B970021D904 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"$FLUTTER_ROOT/packages/flutter_tools/bin/xcode_backend.sh\" build\n\"$FLUTTER_ROOT/packages/flutter_tools/bin/xcode_backend.sh\" embed\n\n\n";
+		};
+		D0D6FCD7A095BFB4389BB009 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FlutterNativeiOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F13FE61AE9DDD8082B724746 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FlutterNativeiOS/Pods-FlutterNativeiOS-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${PODS_ROOT}/../flutter-module-demo/.ios/Flutter/engine/Flutter.framework",
+				"${BUILT_PRODUCTS_DIR}/FlutterPluginRegistrant/FlutterPluginRegistrant.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Flutter.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FlutterPluginRegistrant.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FlutterNativeiOS/Pods-FlutterNativeiOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9644C9B7221E973C0021D904 /* Sources */ = {
@@ -430,6 +525,7 @@
 		};
 		9644C9E4221E973E0021D904 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD6E5FFD3BE4B6888CAB7CC9 /* Pods-FlutterNativeiOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -448,6 +544,7 @@
 		};
 		9644C9E5221E973E0021D904 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A56CC29003C361FDE95559FD /* Pods-FlutterNativeiOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
